@@ -1,0 +1,110 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family:calibri, Verdana, Ariel, sans-serif;
+	font-size:1em;
+	color:#000;
+	background-color:#fff;
+}
+
+#wrapper {
+	width:800px;
+	margin: 0 0 0 100px;
+}
+
+header {
+	margin: 20px 0 30px 0;
+}
+
+header img {
+	display:none;
+}
+
+nav {
+	display:none
+}
+
+main {
+	padding: 0 0 80px 0;
+}
+
+main h2 {
+	padding:0 0 20px 0;
+}
+
+.quickLinks {
+	display:none;
+}
+
+article {
+	padding:0 0 20px 0;
+	width:80%;
+	float:left;
+
+}
+
+article p, article h3 {
+	padding: 0 0 10px 0;
+}
+
+article code {
+	color:blue;
+}
+
+.rem {
+	color:orange;
+	font-style:italic;
+}
+
+dl {
+	padding:10px 0 10px 20px;
+}
+/* bit of C&P here needs to tidy up
+// https://clicknathan.com/web-design/styling-html-5-description-lists-formerly-known-as-definition-lists-properly
+*/
+dt {
+    float: left;
+    width: 50px;
+    padding:0 20px 0 0;
+    text-align: right;
+    clear: left;
+}
+
+dd {
+    float: left;
+    width: 150px;
+    padding: .25em 0.5em;
+}
+
+dl:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+aside {
+	display:none;
+}
+
+
+
+footer {
+	clear:both;
+	padding: 40px 0;
+	color:#fff;
+	background-color:#494949;
+}
+
+footer p {
+	font-size:0.8em;
+	text-align:center;
+	color:#aaa;
+}
+
+footer ul {
+	display:none;
+}

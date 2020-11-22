@@ -1,0 +1,239 @@
+/* Set all the colours used in the page */
+:root {
+	--page-bg-color:#f6f6f6;
+	--page-font-color:#000;
+	--heading-id-bg-color:#fff;
+	
+	/* Used for nav and headings in articles */
+	--main-head-bg-color:#800080;
+	
+	/* Used for headings in asides */
+	--sub-head-bg-color:#006060;
+
+	--head-font-color:#fff;
+	--nav-link-color:#fff;
+	--article-bg-color:#fff;
+	--aside-bg-color:#fff;
+	--quickLinks-class-color:#008080;
+	--footer-bg-color:#494949;
+	--footer-text-color:#ccc;
+	
+	/* Colours for code */
+	--main-code-color:#0000cc;
+	--main-rem-class-color:#f69600;
+	--aside-code-color:#ff0000;
+}
+
+/* Reset all margin and padding to zero */
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family:calibri, Verdana, Ariel, sans-serif;
+	font-size:1em;
+	color:var(--page-font-color);
+	background-color:var(--page-bg-color);
+}
+
+#wrapper {
+	width:1000px;
+	margin: 0 auto;
+}
+
+#heading {
+	background-color:var(--heading-id-bg-color);
+	padding:30px 0 80px 0;
+}
+
+header {
+	margin: 0 auto;
+	width:1000px;
+}
+
+header h1 {
+	float:left;
+}
+
+header img {
+	float:right;
+	width:200px;
+	margin:-25px 0 0 0;
+}
+
+nav {
+	margin: 0 0 40px 0;
+	padding:8px 0 8px 10px;
+	background-color:var(--main-head-bg-color);
+}
+
+nav ul {
+	margin:0 auto;
+	text-align:center;
+	width:1000px;
+	list-style-type:none;
+}
+
+nav li {
+	display:inline;
+	padding: 0 15px 0 0;
+}
+
+nav a {
+	font-size:0.9em;
+	font-weight:bold;
+	color:var(--nav-link-color);
+}
+
+nav a:link, nav a:visited {
+	text-decoration:none;
+}
+
+nav a:hover, nav a:active {
+	text-decoration:underline;
+}
+
+main {
+	padding: 0 0 80px 0;
+}
+
+main h2 {
+	padding:0 0 20px 0;
+}
+
+.quickLinks {
+	margin:0 0 10px 20px;
+	font-size:0.9em;
+}
+
+ol.quickLinks {
+	padding:0 0 0 20px;
+}
+
+.quickLinks li  {
+	padding:0 0 5px 0;
+}
+
+.quickLinks li a, article a, aside a {
+	color:var(--quickLinks-class-color);
+}
+
+article {
+	padding:0 0 10px 0;
+	margin:0 0 20px 0;
+	border:1px var(--main-head-bg-color) solid;
+	background-color:var(--article-bg-color);
+	width:700px;
+	float:left;
+}
+
+article h3 {
+	padding:5px 0 6px 20px;
+	margin:0 0 15px 0;
+	background-color:var(--main-head-bg-color);
+	color:var(--head-font-color);
+	font-size:1em;
+}
+
+article p{
+	padding: 0 40px 10px 20px;
+	line-height:1.3em;
+}
+
+article ol {
+	padding: 0 60px 20px 60px;
+}
+
+pre {
+	margin:-15px 0 7px 0;
+}
+
+article code {
+	color:var(--main-code-color);
+	font-size:1.2em;
+}
+
+.rem {
+	color:var(--main-rem-class-color);
+	font-style:italic;
+}
+
+dl {
+	padding:10px 0 10px 20px;
+	margin:0 0 0 40px;
+}
+
+dt {
+    float: left;
+    width: 50px;
+    padding:0 20px 0 0;
+    clear: left;
+}
+
+dd {
+    float: left;
+    width: 500px;
+    padding: .25em 0.5em;
+}
+
+dl:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+aside {
+	padding:0;
+	margin: 0 0 20px 0;
+	width: 250px;
+	float:right;
+	font-size:0.9em;
+	background-color:var(--aside-bg-color);
+	border: 1px var(--sub-head-bg-color) solid;
+}
+
+aside h3 {
+	padding:4px 0 5px 15px;
+	margin:0 0 10px 0;
+	font-size:1.1em;
+	background-color:var(--sub-head-bg-color);
+	color:var(--head-font-color);
+}
+
+aside p {
+	padding:0 15px 15px 15px;
+	line-height:1.3em;
+}
+
+aside code {
+	color:var(--aside-code-color);
+	font-size:1.2em;
+}
+
+footer {
+	clear:both;
+	padding: 40px 0;
+	color:var(--footer-text-color);
+	background-color:var(--footer-bg-color);
+}
+
+footer p {
+	font-size:0.8em;
+	text-align:center;
+}
+
+footer ul {
+	list-style-type:none;
+	text-align:center;
+	padding: 20px 0;
+}
+
+footer li {
+	display:inline;
+	padding: 0 10px 0 0;
+}
+
+footer a {
+	color:var(--footer-text-color);
+}
