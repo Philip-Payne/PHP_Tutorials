@@ -1,6 +1,6 @@
 # PHP Tutorials
 
-## Getting Started
+## Introduction
 
 These tutorials are now a few years old and in some places would benefit from being updated to PHP 7.x, however the basic introduction to PHP is fine and suitable for someone just getting started with PHP.
 
@@ -20,3 +20,4 @@ The instructions for each exercise are in the comments of the relevant index.php
 
 1. Update to PHP 7.x as required
 2. Add video tutorials as required
+3. Tidy up some minor errors
